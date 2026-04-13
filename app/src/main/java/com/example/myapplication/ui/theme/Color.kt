@@ -2,10 +2,13 @@ package com.example.myapplication.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Màu chủ đạo Discord (Blurple)
+val DiscordBlurple = Color(0xFF5865F2)
+val DiscordGreen = Color(0xFF57F287)
+val DiscordYellow = Color(0xFFFEE75C)
+val DiscordRed = Color(0xFFED4245)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Tông màu tối cho Background và Surface (Dark Mode)
+val DiscordDarkGray = Color(0xFF313338) // Nền chính
+val DiscordVeryDarkGray = Color(0xFF2B2D31) // Sidebar/Header
+val DiscordLightGray = Color(0xFFDBDEE1) // Chữ chính
