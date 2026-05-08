@@ -37,7 +37,7 @@ private val LightColorScheme = lightColorScheme(
 @RequiresApi(Build.VERSION_CODES.S)
 @Composable
 fun MyApplicationTheme(
-    darkTheme: Boolean = true,
+    darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = false, // Vẫn để false để giữ màu Discord
     content: @Composable () -> Unit
 ) {
